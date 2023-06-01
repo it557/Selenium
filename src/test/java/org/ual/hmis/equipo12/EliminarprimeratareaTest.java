@@ -36,7 +36,7 @@ public class EliminarprimeratareaTest {
   public void setUp() {
     // Browser selector
     System.setProperty("webdriver.http.factory", "jdk-http-client");
-    int browser = 1; // 0: firefox, 1: chrome,...
+    int browser = 0; // 0: firefox, 1: chrome,...
     Boolean headless = true;
 
     switch (browser) {
